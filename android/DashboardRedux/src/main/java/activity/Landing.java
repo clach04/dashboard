@@ -55,7 +55,7 @@ import cl_toolkit.Web;
 import config.Build;
 import config.Keys;
 import config.Runtime;
-import no_commit.NoCommit;
+//import no_commit.NoCommit;
 import util.PebbleUtils;
 
 public class Landing extends FragmentActivity {
@@ -380,8 +380,8 @@ public class Landing extends FragmentActivity {
 
             @Override
             public void run() {
-                showCard(newsCard);
-                downloadNews();
+                //showCard(newsCard);
+                //downloadNews();
             }
 
         }, 800);
@@ -586,7 +586,7 @@ public class Landing extends FragmentActivity {
 		}
 		ed.commit();
 	}
-
+/*
 	private void downloadNews() {
 		newsProgressBar.setVisibility(View.VISIBLE);
 		newsBody.setText("");
@@ -636,7 +636,7 @@ public class Landing extends FragmentActivity {
 	
 		}).start();
 	}
-
+*/
 	private void showCard(final CardView card) {
 		Animation showAnim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_in_bottom);
 		showAnim.setAnimationListener(new AnimationListener() {
