@@ -1,3 +1,7 @@
+
+Removed the news cards in this fork. Carry on.
+
+
 # dashboard
 
 Source code for the Dashboard app. Includes code for both the Pebble watchapp and the Android companion app.
